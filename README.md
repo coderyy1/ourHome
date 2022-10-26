@@ -6,14 +6,14 @@
 
 ## <font color="#61DAFB">前端技术栈</font>
 
-+ [<font color="#61DAFB">React 17.x</font>](https://react.docschina.org/)
-+ [<font color="#61A5FA">Umi Max</font>](https://umijs.org/)
-+ [<font color="#FC59C3">Dva<font color="#61A5FA">](https://dvajs.com/)
-+ [<font color="#0091FF">Ant Design 4.x<font color="#61A5FA">](https://ant.design/index-cn)
-+ [<font color="#294E80">TypeScript<font color="#61A5FA">](https://www.tslang.cn/index.html)
++ <a href="https://react.docschina.org/" target="__blank"><font color="#61DAFB">React 17.x</font></a>
++ <a href="https://umijs.org/" target="__blank"><font color="#61A5FA">Umi Max</font></a>
++ <a href="https://dvajs.com/" target="__blank"><font color="#FC59C3">Dva</font></a>
++ <a href="https://ant.design/index-cn" target="__blank"><font color="#0091FF">Ant Design 4.x</font></a>
++ <a href="https://www.tslang.cn/index.html" target="__blank"><font color="#294E80">TypeScript</font></a>
 
 
 ## <font color="#35EB9A">后端技术栈</font>
 
-+ [<font color="#6AADFF">Midway<font color="#61A5FA">](http://www.midwayjs.org/)
-+ [<font color="#294E80">TypeScript<font color="#61A5FA">](https://www.tslang.cn/index.html)
++ <a href="http://www.midwayjs.org/" target="__blank"><font color="#6AADFF">Midway<font color="#61A5FA"></a>
++ <a href="https://www.tslang.cn/index.html" target="__blank"><font color="#294E80">TypeScript</font></a>
