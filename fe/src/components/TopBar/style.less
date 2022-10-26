@@ -1,0 +1,45 @@
+.comp {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 64px;
+  padding: 8px 16px;
+  // background-color: #3d8ab4;
+  background-color: #60a5fa;
+
+  @keyframes blinkBlob {
+    0% {
+      box-shadow: 0 0 6px 2px #ccc;
+    }
+    50% {
+      box-shadow: none;
+    }
+    100% {
+      box-shadow: 0 0 6px 2px #ccc;
+    }
+  }
+  .leftInfo {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    .topicIcon {
+      width: 72px;
+      padding: 1px;
+      margin-right: 16px;
+      background-color: #fff;
+      border: 1px solid #fff;
+      border-radius: 8px;
+      box-shadow: 0 0 6px 2px #ccc;
+      animation: blinkBlob 3s infinite;
+    }
+    .mainTitle {
+      font-size: 24px;
+      color: purple;
+      cursor: pointer;
+    }
+  }
+  .rightTools {
+    margin-right: 24px;
+  }
+}

@@ -1,0 +1,120 @@
+.loadingPage {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  font-size: 64px;
+  background-color: aquamarine;
+  z-index: 999;
+
+  @keyframes loadingBar {
+    0% {
+      left: -680px;
+    }
+
+    100% {
+      left: 0;
+    }
+  }
+
+  @keyframes fadeOutBar {
+    0% {
+      opacity: 1;
+    }
+    85% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 0;
+    }
+  }
+
+  @keyframes fadeInBtn {
+    0% {
+      transform: scale(0.2);
+      opacity: 0;
+    }
+    82% {
+      transform: scale(0.2);
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+
+  @keyframes catRun {
+    0% {
+      left: -74px;
+      top: -118px;
+    }
+    100% {
+      left: 594px;
+      top: -118px;
+    }
+  }
+
+  .loadingBar {
+    position: relative;
+    opacity: 0;
+    animation: fadeOutBar 3.5s;
+    .catGif {
+      position: absolute;
+      left: 594px;
+      top: -118px;
+      animation: catRun 3s ease-in-out;
+      z-index: 99;
+      > img {
+        height: 128px;
+      }
+    }
+    .bgBar {
+      position: relative;
+      width: 680px;
+      height: 48px;
+      background-color: #ccc;
+      border: 1px solid #999;
+      border-radius: 24px;
+      box-shadow: 0 0 2px 1px #ccc;
+      overflow: hidden;
+    }
+    .innerBar {
+      position: absolute;
+      left: 0;
+      top: 0;
+      width: 680px;
+      height: 48px;
+      background-color: peru;
+      border-radius: 24px 0 0 24px;
+      animation: loadingBar 3s ease-in-out;
+    }
+  }
+
+  .btn {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    transform-origin: left top;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 120px;
+    height: 48px;
+    font-size: 24px;
+    color: greenyellow;
+    background-color: palevioletred;
+    cursor: pointer;
+    border: 3px solid rgb(207, 62, 111);
+    border-radius: 8px;
+    animation: fadeInBtn 4s;
+    &:hover {
+      box-shadow: 0 0 2px 2px rgba(207, 62, 111, 0.7);
+      transition: .3s;
+    }
+  }
+}

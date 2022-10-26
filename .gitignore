@@ -1,0 +1,12 @@
+/fe/node_modules
+/fe/.env.local
+/fe/.umirc.local.ts
+/fe/config/config.local.ts
+/fe/src/.umi
+/fe/src/.umi-production
+/fe/src/.umi-test
+/fe/.umi
+/fe/.umi-production
+/fe/.umi-test
+/fe/dist
+/fe/.mfsu

@@ -1,0 +1,29 @@
+.page {
+
+  @keyframes fadeIn {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+
+  animation: fadeIn 1s ease-in-out;
+  .topBar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 99;
+  }
+  .innerContext {
+    position: relative;
+    top: 64px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    padding: 8px;
+    overflow: auto;
+  }
+}
